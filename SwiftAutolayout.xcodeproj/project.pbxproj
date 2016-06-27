@@ -14,6 +14,12 @@
 		5BBCD2F11D1AAF9000D5F6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBCD2EF1D1AAF9000D5F6BA /* LaunchScreen.storyboard */; };
 		5BBCD2FC1D1AAF9000D5F6BA /* SwiftAutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD2FB1D1AAF9000D5F6BA /* SwiftAutolayoutTests.swift */; };
 		5BBCD3071D1AAF9000D5F6BA /* SwiftAutolayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD3061D1AAF9000D5F6BA /* SwiftAutolayoutUITests.swift */; };
+		5BBCD31F1D1BEC9200D5F6BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD31E1D1BEC9200D5F6BA /* GameViewController.swift */; };
+		5BBCD3201D1BEC9200D5F6BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD31E1D1BEC9200D5F6BA /* GameViewController.swift */; };
+		5BBCD3211D1BEC9200D5F6BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD31E1D1BEC9200D5F6BA /* GameViewController.swift */; };
+		5BBCD3231D1BED0800D5F6BA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD3221D1BED0800D5F6BA /* ResultViewController.swift */; };
+		5BBCD3241D1BED0800D5F6BA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD3221D1BED0800D5F6BA /* ResultViewController.swift */; };
+		5BBCD3251D1BED0800D5F6BA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCD3221D1BED0800D5F6BA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		5BBCD3021D1AAF9000D5F6BA /* SwiftAutolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAutolayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBCD3061D1AAF9000D5F6BA /* SwiftAutolayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAutolayoutUITests.swift; sourceTree = "<group>"; };
 		5BBCD3081D1AAF9000D5F6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBCD31E1D1BEC9200D5F6BA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5BBCD3221D1BED0800D5F6BA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,8 @@
 		5BBCD2E51D1AAF9000D5F6BA /* SwiftAutolayout */ = {
 			isa = PBXGroup;
 			children = (
+				5BBCD3141D1BEBCD00D5F6BA /* ViewController */,
 				5BBCD2E61D1AAF9000D5F6BA /* AppDelegate.swift */,
-				5BBCD2E81D1AAF9000D5F6BA /* ViewController.swift */,
 				5BBCD2EA1D1AAF9000D5F6BA /* Main.storyboard */,
 				5BBCD2ED1D1AAF9000D5F6BA /* Assets.xcassets */,
 				5BBCD2EF1D1AAF9000D5F6BA /* LaunchScreen.storyboard */,
@@ -123,6 +131,16 @@
 				5BBCD3081D1AAF9000D5F6BA /* Info.plist */,
 			);
 			path = SwiftAutolayoutUITests;
+			sourceTree = "<group>";
+		};
+		5BBCD3141D1BEBCD00D5F6BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCD2E81D1AAF9000D5F6BA /* ViewController.swift */,
+				5BBCD31E1D1BEC9200D5F6BA /* GameViewController.swift */,
+				5BBCD3221D1BED0800D5F6BA /* ResultViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBCD2E91D1AAF9000D5F6BA /* ViewController.swift in Sources */,
+				5BBCD31F1D1BEC9200D5F6BA /* GameViewController.swift in Sources */,
 				5BBCD2E71D1AAF9000D5F6BA /* AppDelegate.swift in Sources */,
+				5BBCD3231D1BED0800D5F6BA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBCD3201D1BEC9200D5F6BA /* GameViewController.swift in Sources */,
 				5BBCD2FC1D1AAF9000D5F6BA /* SwiftAutolayoutTests.swift in Sources */,
+				5BBCD3241D1BED0800D5F6BA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBCD3211D1BEC9200D5F6BA /* GameViewController.swift in Sources */,
 				5BBCD3071D1AAF9000D5F6BA /* SwiftAutolayoutUITests.swift in Sources */,
+				5BBCD3251D1BED0800D5F6BA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				5BBCD30D1D1AAF9000D5F6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBCD30E1D1AAF9000D5F6BA /* Build configuration list for PBXNativeTarget "SwiftAutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				5BBCD3101D1AAF9000D5F6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBCD3111D1AAF9000D5F6BA /* Build configuration list for PBXNativeTarget "SwiftAutolayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				5BBCD3131D1AAF9000D5F6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
